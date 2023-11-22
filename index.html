@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Sentiment Analysis</h1>
+    <form action="/predict" method="post">
+        <label for="text">Enter text:</label>
+        <input type="text" name="text" required>
+        <button type="submit">Predict</button>
+    </form>
+    {% if prediction %}
+        <p><strong>Prediction:</strong> {{ prediction }}</p>
+        <p><strong>Input Text:</strong> {{ text }}</p>
+    {% endif %}
+</body>
+</html>
+

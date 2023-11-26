@@ -9,7 +9,7 @@ import nltk
 app = Flask(__name__)
 
 # Load the model
-model = joblib.load('sentiment_model.joblib')
+model = joblib.load('navie_bayes_model.joblib')
 
 # Load the vectorizer
 vectorizer = joblib.load('vectorizer.joblib')

@@ -1,4 +1,4 @@
-# Sentiment Analysis with Naive Bayes
+# Sentiment Analysis Of Social Media Data
 
 This project involves sentiment analysis using the Naive Bayes classification algorithm to classify text data into three sentiment categories: Positive, Neutral, and Negative. The project encompasses data loading, preprocessing, model training, evaluation, and optional model saving.
 
